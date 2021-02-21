@@ -31,6 +31,10 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.navbar-brand:hover {
+    color: black;
+}
+
 
 /* ul {
     list-style-type: none;
@@ -105,6 +109,7 @@ h3 {
     font-size: 40px;
     font-family: Arial, Helvetica, sans-serif;
     color: gray;
+    margin-right: 50px;
 }
 
 
@@ -124,7 +129,7 @@ h5 {
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     margin-left: 220px;
-    width: 700px;
+    width: 800px;
     height: 150px;
     padding: 50px;
     border: 0;
@@ -168,7 +173,7 @@ h5 {
     width: auto;
     background-color: lightgray;
     text-align: center;
-    /* top: 20px; */
+    top: 50%;
 }
 
 
