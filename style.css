@@ -5,15 +5,16 @@
     }
 }
 
-@media screen and (min-width: 480px) {
-    body {
-        background-color: lightgreen;
-    }
-}
-
 @media screen and (max-width: 600px) {
     .row {
         flex-direction: column;
+    }
+}
+
+@media screen {
+    .aboutme {
+        flex: 100%;
+        max-width: 100%;
     }
 }
 
