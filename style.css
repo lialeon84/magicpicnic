@@ -28,7 +28,7 @@
     text-decoration: none;
     text-decoration-color: grey;
     font-size: 30px;
-    font-family: fantasy;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 
@@ -54,7 +54,7 @@ li a {
     text-decoration: none;
     text-decoration-color: grey;
     font-size: 30px;
-    font-family: fantasy;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 li a:hover {
@@ -72,13 +72,13 @@ li a:hover {
 p {
     text-align: center;
     font-size: 20px;
-    font-family: fantasy;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 h1 {
     text-align: center;
     font-size: 20px;
-    font-family: fantasy;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 
@@ -89,7 +89,7 @@ h2 {
     text-shadow: rgba(0, 0, 0, 0.4) 0px 4px 5px;
     font-size: 80px;
     text-align: center;
-    font-family: fantasy;
+    font-family: Arial, Helvetica, sans-serif;
     color: white;
     margin-bottom: 200px;
 }
@@ -103,7 +103,7 @@ h3 {
     font-size: 80px;
     text-align: center;
     font-size: 40px;
-    font-family: fantasy;
+    font-family: Arial, Helvetica, sans-serif;
     color: gray;
 }
 
@@ -112,7 +112,7 @@ h3 {
 
 h4 {
     text-align: center;
-    font-family: fantasy;
+    font-family: Arial, Helvetica, sans-serif;
     max-left: 100px;
     font-size: 20px;
 }
@@ -122,7 +122,7 @@ h4 {
 
 h5 {
     text-align: center;
-    font-family: fantasy;
+    font-family: Arial, Helvetica, sans-serif;
     margin-left: 220px;
     width: 700px;
     height: 150px;
@@ -137,7 +137,7 @@ h5 {
 #reviews {
     font-size: 11px;
     text-align: center;
-    font-family: fantasy;
+    font-family: Arial, Helvetica, sans-serif;
     margin-left: 800px;
     padding: 0px;
     border: 0;
@@ -181,7 +181,7 @@ span {
     outline: 0;
     vertical-align: baseline;
     background: transparent;
-    font-family: fantasy;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
     letter-spacing: 0.1em;
 }
@@ -297,7 +297,7 @@ span {
 .aboutme {
     font-size: 20px;
     text-align: center;
-    font-family: fantasy;
+    font-family: Arial, Helvetica, sans-serif;
     padding: 0px;
     border: 20px;
     margin-bottom: 20px;
