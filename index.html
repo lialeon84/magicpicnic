@@ -19,7 +19,8 @@
 
 
 <body>
-    <nav class="navbar">
+    <div id="navigation"></div>
+    <!-- <nav class="navbar">
         <div class="container-fluid">
             <div class="navbar-header">
 
@@ -30,20 +31,17 @@
                 <li class="active"><a href="index.html">Home</a></li>
                 <li><a href="book.html">Book</a></li>
                 <!-- <li><a href="book.html">Events</a></li> -->
-                <li><a href="gallery.html">Gallery</a></li>
-                <li><a href="contact.html">Contact</a></li>
-                <li><a href="about.html">About Us</a></li>
-            </ul>
-            <!--<ul class="nav navbar-nav navbar-right">
+    <!-- <li><a href="gallery.html">Gallery</a></li>
+    <li><a href="contact.html">Contact</a></li>
+    <li><a href="about.html">About Us</a></li>
+    </ul> -->
+    <!--<ul class="nav navbar-nav navbar-right">
                     <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
                 </ul>-->
 
-        </div>
-    </nav>
-    <div class="row">
-        <div class="col-12 col-md-8">.col-12 .col-md-8</div>
-        <div class="col-6 col-md-4">.col-6 .col-md-4</div>
-    </div>
+    <!-- </div>
+    </nav> -->
+
     <!-- Intro Image-->
     <section id="intro" class="intro-section pb-2">
         <div class="container text-center">
@@ -95,6 +93,14 @@
         <p id="roselink">© 2021 Rose V. All rights reserved.</p>
     </div>
 
+
+
+    <script type="text/javascript">
+        $(function() {
+            $("#navigation").load("nav.html");
+        });
+    </script>
 </body>
+
 
 </html>

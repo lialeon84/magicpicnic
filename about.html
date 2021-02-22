@@ -20,27 +20,7 @@
 </head>
 
 <body>
-    <nav class="navbar">
-        <div class="container-fluid">
-            <div class="navbar-header">
-
-                <a class="navbar-brand" href="index.html">Magic Picnic</a>
-            </div>
-
-            <ul class="nav navbar-nav">
-                <li class="active"><a href="index.html">Home</a></li>
-                <li><a href="book.html">Book</a></li>
-                <!-- <li><a href="book.html">Events</a></li> -->
-                <li><a href="gallery.html">Gallery</a></li>
-                <li><a href="contact.html">Contact</a></li>
-                <li><a href="about.html">About Us</a></li>
-            </ul>
-            <!--<ul class="nav navbar-nav navbar-right">
-                    <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
-                </ul>-->
-
-        </div>
-    </nav>
+    <div id="navigation"></div>
 
 
     <!-- Intro Image-->
@@ -123,6 +103,15 @@
         <a id="roselink" href="https://webdevrose.com/">Created by webdevrose.com</a>
         <p id="roselink">© 2021 Rose V. All rights reserved.</p>
     </div>
+
+
+
+
+    <script type="text/javascript">
+        $(function() {
+            $("#navigation").load("nav.html");
+        });
+    </script>
 </body>
 
 </html>
