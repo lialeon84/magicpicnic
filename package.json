@@ -1,0 +1,22 @@
+{
+    "name": "zuly-picnic",
+    "version": "1.0.0",
+    "description": "zuly app",
+    "main": "app.js",
+    "scripts": {
+        "test": "err"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/lialeon84/magicpicnic.git"
+    },
+    "author": "Rose Vergel",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/lialeon84/magicpicnic/issues"
+    },
+    "homepage": "https://github.com/lialeon84/magicpicnic#readme",
+    "dependencies": {
+        "bootstrap": "^5.0.0-beta2"
+    }
+}

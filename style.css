@@ -1,3 +1,7 @@
+body {
+    background-image: linear-gradient( to bottom right, rgb(234, 243, 245), rgb(248, 214, 224));
+}
+
 p {
     text-align: center;
     font-size: 20px;
@@ -10,31 +14,63 @@ h1 {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-
-/* for the center word on pic */
-
-h2 {
+.magic {
     letter-spacing: 0.1em;
     text-shadow: rgba(0, 0, 0, 0.4) 0px 4px 5px;
-    font-size: 80px;
+    font-size: 90px;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     color: white;
-    margin-bottom: 200px;
+    /* margin-bottom: 200px; */
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+/* for the center word on pic */
+
+.aboutus {
+    letter-spacing: 0.1em;
+    text-shadow: rgba(0, 0, 0, 0.4) 0px 4px 5px;
+    font-size: 90px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    /* margin-bottom: 200px; */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 
 /* for the word Review on home pic */
 
-h3 {
+#review {
     letter-spacing: 0.1em;
     text-shadow: rgba(0, 0, 0, 0.4) 0px 4px 5px;
-    font-size: 80px;
     text-align: center;
-    font-size: 40px;
+    font-size: 50px;
     font-family: Arial, Helvetica, sans-serif;
     color: gray;
     margin-right: 50px;
+}
+
+.green {
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+}
+
+.blue {
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+}
+
+.red {
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
 }
 
 
@@ -50,37 +86,30 @@ h4 {
 
 /* for CUSTOMER REVIEWS carousel at the in home page */
 
-h5 {
+.us {
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
-    margin-left: 220px;
-    width: 800px;
-    height: 150px;
-    padding: 50px;
-    border: 0;
+    font-size: 20px;
+    color: gray;
+}
+
+h6 {
+    /* text-align: left; */
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
 }
 
 
 /* Customers names under the review comment */
 
-#reviews {
-    font-size: 11px;
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-    margin-left: 800px;
-    padding: 0px;
-    border: 0;
-}
-
 
 /* insta icon */
 
 .gg-instagram {
     margin-left: 660px;
-    color: black;
-    background: pink;
-    margin-bottom: 20px;
+    color: white;
+    background-image: linear-gradient( to bottom right, rgb(86, 33, 184), rgb(233, 189, 108));
+    margin-bottom: 0px;
 }
 
 
@@ -92,30 +121,25 @@ h5 {
     font-family: "Times New Roman", Times, serif;
 }
 
-.footer {
-    position: relative;
+
+/* .footer {
+    position: absolute;
     bottom: 0;
-    width: auto;
-    background-color: lightgray;
+    width: 100%;
+    background-color: transparent;
     text-align: center;
-    top: 50%;
-}
+    padding-top: 60px;
+} */
+
+
+/* footer {
+    position: absolute;
+    bottom: 0;
+    top: 100%;
+} */
 
 
 /* for the wording on the bottom of the pic in about you page */
-
-
-/* span {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    outline: 0;
-    vertical-align: baseline;
-    background: transparent;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 14px;
-    letter-spacing: 0.1em;
-} */
 
 
 /*
@@ -127,47 +151,24 @@ h5 {
 */
 
 #intro {
-    background: url(img/zulypic3.jpeg) center;
-    background-color: #cccccc;
-    height: 500px;
+    height: 50%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    width: 100%;
     position: relative;
     opacity: 0.5;
-}
-
-.intro-section {
-    padding-top: 150px;
-    color: #ffe6e6;
-}
-
-.intro-section .logo,
-.intro-section p {
-    margin-bottom: 90px;
-}
-
-@media (min-width: 992px) {
-    .intro-section {
-        min-height: 100vh;
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: fixed;
-        -webkit-box-align: center;
-        -ms-flex-align: center;
-        align-items: center;
-    }
 }
 
 
 /* about intro page background img */
 
 #about {
-    background-image: url(img/zulypic5.jpeg);
-    background-color: #cccccc;
+    height: 80%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    width: 100%;
     position: relative;
     opacity: 0.5;
 }
@@ -179,33 +180,12 @@ h5 {
 }
 
 
-/* grid for about us page */
-
-.grid-container {
-    display: grid;
-    grid-template-columns: auto auto auto auto;
-    grid-gap: 10px;
-    background-color: white;
-    padding: 10px;
-    margin-top: 10px;
-}
-
-.grid-container>div {
-    background-color: rgba(255, 255, 255, 0.8);
-    text-align: center;
-    font-size: 30px;
-}
-
-.aboutus {
-    font-size: 30px;
-    font-weight: bold;
-}
-
-
 /**
  * Profile image component
  */
 
+
+/* 
 .profile-header-container {
     margin: 0 auto;
     text-align: center;
@@ -223,7 +203,7 @@ h5 {
 
 .profile-header {
     margin-top: 43px;
-}
+} */
 
 .aboutme {
     font-size: 20px;
@@ -304,4 +284,97 @@ button.btn {
     background-color: gray;
     color: black;
     border: 1px solid gray;
+}
+
+
+/* for home page review grid */
+
+.float-container {
+    border: 3px solid transparent;
+    padding: 20px;
+}
+
+.float-child {
+    width: 300px;
+    height: 210px;
+    float: left;
+    padding: 20px;
+    /* border: 1px solid black; */
+    border-radius: 30px;
+    box-shadow: 5px 10px #ced1d1;
+    margin-bottom: 100px;
+    margin-left: 100px;
+    background-image: linear-gradient( to bottom right, rgb(241, 244, 245), rgb(241, 225, 215));
+}
+
+
+/* about us page */
+
+.float-container2 {
+    border: 3px solid transparent;
+    padding: 10px;
+}
+
+.float-child2 {
+    width: 500px;
+    height: auto;
+    float: left;
+    padding: 20px;
+    /* border: 1px solid black; */
+    border-radius: 30px;
+    box-shadow: 5px 10px #ced1d1;
+    margin-bottom: 100px;
+    margin-left: 100px;
+    background-image: linear-gradient( to bottom right, rgb(241, 244, 245), rgb(241, 225, 215));
+}
+
+
+/* flip card pic */
+
+.flip-card {
+    background-color: transparent;
+    width: 300px;
+    height: 300px;
+    perspective: 1000px;
+    margin-left: 500px;
+    margin-top: 250px;
+    border-radius: 30px;
+}
+
+.flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+    border-radius: 30px;
+}
+
+.flip-card-front,
+.flip-card-back {
+    align-content: center;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.flip-card-front {
+    background-color: gray;
+    color: black;
+    border-radius: 30px;
+}
+
+.flip-card-back {
+    background-image: linear-gradient( to bottom right, rgb(241, 244, 245), rgb(241, 225, 215));
+    color: gray;
+    transform: rotateY(180deg);
+    border-radius: 30px;
 }
