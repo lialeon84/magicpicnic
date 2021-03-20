@@ -299,12 +299,12 @@ button.btn {
 
 /* about us page */
 
-.float-container2 {
+.float-containers {
     border: 3px solid transparent;
     padding: 10px;
 }
 
-.float-child2 {
+.float-childs {
     width: 400px;
     height: auto;
     float: left;
@@ -315,12 +315,12 @@ button.btn {
     background: rgba(0, 0, 0, 0.5);
 }
 
-.float-container3 {
+.float-containerr {
     border: 3px solid transparent;
     padding: 20px;
 }
 
-.float-child3 {
+.float-childr {
     width: 300px;
     height: 210px;
     float: left;
