@@ -17,6 +17,11 @@
     },
     "homepage": "https://github.com/lialeon84/magicpicnic#readme",
     "dependencies": {
-        "bootstrap": "^5.0.0-beta2"
+        "@popperjs/core": "^2.9.1",
+        "bootstrap": "^5.0.0-beta2",
+        "css.gg": "^2.0.0"
+    },
+    "devDependencies": {
+        "style-loader": "^2.0.0"
     }
 }

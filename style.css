@@ -103,16 +103,6 @@ h6 {
 /* Customers names under the review comment */
 
 
-/* insta icon */
-
-.gg-instagram {
-    margin-left: 660px;
-    color: white;
-    background-image: linear-gradient( to bottom right, rgb(86, 33, 184), rgb(233, 189, 108));
-    margin-bottom: 0px;
-}
-
-
 /* creator of the site*/
 
 #roselink {
@@ -121,22 +111,20 @@ h6 {
     font-family: "Times New Roman", Times, serif;
 }
 
-
-/* .footer {
+.footer {
     position: absolute;
     bottom: 0;
     width: 100%;
     background-color: transparent;
     text-align: center;
     padding-top: 60px;
-} */
+}
 
-
-/* footer {
+footer {
     position: absolute;
     bottom: 0;
     top: 100%;
-} */
+}
 
 
 /* for the wording on the bottom of the pic in about you page */
@@ -180,30 +168,7 @@ h6 {
 }
 
 
-/**
- * Profile image component
- */
-
-
-/* 
-.profile-header-container {
-    margin: 0 auto;
-    text-align: center;
-}
-
-.profile-header-img {
-    padding: 54px;
-}
-
-.profile-header-img>img.img-circle {
-    width: 160px;
-    height: 160px;
-    border: 2px solid white;
-}
-
-.profile-header {
-    margin-top: 43px;
-} */
+/* about me page */
 
 .aboutme {
     font-size: 20px;
@@ -212,6 +177,15 @@ h6 {
     padding: 0px;
     border: 20px;
     margin-bottom: 20px;
+}
+
+.pic {
+    background-image: url("img/zulypic5.jpeg");
+    width: 100vw;
+    height: 100vh;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    position: relative;
 }
 
 
@@ -299,9 +273,8 @@ button.btn {
     height: 210px;
     float: left;
     padding: 20px;
-    /* border: 1px solid black; */
     border-radius: 30px;
-    box-shadow: 5px 10px #ced1d1;
+    box-shadow: 5px 10px #adacac;
     margin-bottom: 100px;
     margin-left: 100px;
     background-image: linear-gradient( to bottom right, rgb(241, 244, 245), rgb(241, 225, 215));
@@ -320,61 +293,9 @@ button.btn {
     height: auto;
     float: left;
     padding: 20px;
-    /* border: 1px solid black; */
     border-radius: 30px;
-    box-shadow: 5px 10px #ced1d1;
+    box-shadow: 5px 10px #adacac;
     margin-bottom: 100px;
     margin-left: 100px;
     background-image: linear-gradient( to bottom right, rgb(241, 244, 245), rgb(241, 225, 215));
-}
-
-
-/* flip card pic */
-
-.flip-card {
-    background-color: transparent;
-    width: 300px;
-    height: 300px;
-    perspective: 1000px;
-    margin-left: 500px;
-    margin-top: 250px;
-    border-radius: 30px;
-}
-
-.flip-card-inner {
-    position: relative;
-    width: 100%;
-    height: 100%;
-    text-align: center;
-    transition: transform 0.6s;
-    transform-style: preserve-3d;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-}
-
-.flip-card:hover .flip-card-inner {
-    transform: rotateY(180deg);
-    border-radius: 30px;
-}
-
-.flip-card-front,
-.flip-card-back {
-    align-content: center;
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    -webkit-backface-visibility: hidden;
-    backface-visibility: hidden;
-}
-
-.flip-card-front {
-    background-color: gray;
-    color: black;
-    border-radius: 30px;
-}
-
-.flip-card-back {
-    background-image: linear-gradient( to bottom right, rgb(241, 244, 245), rgb(241, 225, 215));
-    color: gray;
-    transform: rotateY(180deg);
-    border-radius: 30px;
 }
