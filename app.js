@@ -1,5 +1,6 @@
 import "bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
+import "./icons/all.css";
 
 import { createPopper } from "@popperjs/core";
 const popcorn = document.querySelector("#popcorn");
