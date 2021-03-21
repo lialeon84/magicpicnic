@@ -3,12 +3,15 @@
 
 <head>
 
+    <title>Magic Picnic</title>
 
+</head>
+
+
+<body>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=yes">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-
-    <title>Magic Picnic</title>
     <link href='https://css.gg/instagram.css' rel='stylesheet'>
     <link rel="stylesheet" href="style.css"> </link>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
@@ -17,18 +20,7 @@
     <link rel="stylesheet" href="style.css"> </link>
     <link href='https://css.gg/sun.css' rel='stylesheet'>
     <script src="app.js" charset="utf-8"></script>
-
     <link href='https://css.gg/umbrella.css' rel='stylesheet'>
-
-
-
-
-</head>
-
-
-<body>
-
-
 
     <div id="navigation"></div>
     <!-- Intro Image-->
@@ -80,14 +72,112 @@
 
 
 
-
-
-    <div class="footer">
+    <div class="footer" id="fooTers">
         <a id="roselink" href="https://webdevrose.com/">Created by webdevrose.com</a>
         <p id="roselink">© 2021 Rose V. All rights reserved.</p>
     </div>
 
-
+    <style>
+        body {
+            background-image: linear-gradient( to bottom right, rgb(234, 243, 245), rgb(248, 214, 224));
+            height: auto;
+            width: auto;
+        }
+        
+        .magic {
+            letter-spacing: 0.1em;
+            text-shadow: rgba(0, 0, 0, 0.4) 0px 4px 5px;
+            font-size: 90px;
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+            color: white;
+            /* margin-bottom: 200px; */
+            position: absolute;
+            top: 70%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+        
+        #review {
+            letter-spacing: 0.1em;
+            /* text-shadow: rgba(0, 0, 0, 0.4) 0px 4px 5px; */
+            text-align: center;
+            font-size: 50px;
+            font-family: Arial, Helvetica, sans-serif;
+            color: rgb(187, 184, 184);
+            margin-right: 50px;
+            font-weight: 500%;
+        }
+        
+        .green {
+            font-family: Arial, Helvetica, sans-serif;
+            color: gray;
+        }
+        
+        .blue {
+            font-family: Arial, Helvetica, sans-serif;
+            color: gray;
+        }
+        
+        .red {
+            font-family: Arial, Helvetica, sans-serif;
+            color: gray;
+        }
+        
+        h6 {
+            /* text-align: left; */
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 15px;
+        }
+        
+        #intro {
+            height: 700px;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            width: 100%;
+            position: relative;
+            opacity: 0.5;
+        }
+        
+        .float-container {
+            border: 3px solid transparent;
+            padding: 20px;
+        }
+        
+        .float-child {
+            width: 300px;
+            height: 210px;
+            float: left;
+            padding: 20px;
+            border-radius: 30px;
+            margin-bottom: 100px;
+            margin-left: 100px;
+            box-shadow: 5px 10px #adacac;
+            background-image: linear-gradient( to bottom right, rgb(241, 244, 245), rgb(241, 225, 215));
+        }
+        
+        p {
+            text-align: center;
+            font-size: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        
+        .footer {
+            position: absolute;
+            bottom: 0;
+            top: 100%;
+            width: 100%;
+            background-color: transparent;
+            text-align: center;
+            padding-top: 40%;
+        }
+        
+        #roselink {
+            font-size: 11px;
+            color: black;
+        }
+    </style>
 
     <script type="text/javascript">
         $(function() {
